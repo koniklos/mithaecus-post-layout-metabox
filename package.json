@@ -1,0 +1,43 @@
+{
+  "name": "post-layout-metabox",
+  "theme": "mithaecus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --prod",
+    "bundle": "gulp bundle --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koniklos/mithaecus-post-layout-metabox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koniklos/mithaecus-post-layout-metabox/issues"
+  },
+  "homepage": "https://github.com/koniklos/mithaecus-post-layout-metabox#readme",
+  "devDependencies": {
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "del": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-zip": "^5.0.0",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^5.2.1",
+    "yards": "^0.1.4"
+  }
+}
